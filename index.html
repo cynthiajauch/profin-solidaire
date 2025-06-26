@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProFin Solidaire</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #1F3A93;
+    }
+    header {
+      background-color: #ffffff;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    header img {
+      height: 60px;
+    }
+    header h1 {
+      margin: 0;
+      color: #1F3A93;
+    }
+    header p {
+      width: 100%;
+      text-align: center;
+      color: #F4B400;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .services, .about, .contact {
+      margin-bottom: 40px;
+    }
+    h2 {
+      color: #4CAF50;
+      border-bottom: 2px solid #4CAF50;
+      padding-bottom: 5px;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    ul li::before {
+      content: "\2713 ";
+      color: #4CAF50;
+      margin-right: 5px;
+    }
+    .whatsapp-button {
+      display: inline-block;
+      background-color: #25D366;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 15px;
+    }
+    .whatsapp-button:hover {
+      background-color: #1ebe5b;
+    }
+    form {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    input, textarea {
+      padding: 10px;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #1F3A93;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #16306e;
+    }
+    footer {
+      background-color: #1F3A93;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo_profin_solidaire.png" alt="ProFin Solidaire Logo">
+    <div>
+      <h1>ProFin Solidaire</h1>
+      <p>Die Kraft des kleinen Kapitals</p>
+      <a class="whatsapp-button" href="https://wa.me/33758747212" target="_blank">Jetzt auf WhatsApp schreiben</a>
+    </div>
+  </header>
+
+  <section class="about">
+    <h2>Über Uns</h2>
+    <p>ProFin Solidaire ist eine Mikrofinanzinstitution, die sich für finanzielle Inklusion und sozialen Fortschritt einsetzt. Wir unterstützen kleine Unternehmer und benachteiligte Gruppen durch zugängliche Finanzlösungen.</p>
+  </section>
+
+  <section class="services">
+    <h2>Unsere Dienstleistungen</h2>
+    <ul>
+      <li>Mikrokredite für Kleinstunternehmen</li>
+      <li>Finanzielle Bildung und Beratung</li>
+      <li>Gemeinschaftliche Kreditmodelle</li>
+      <li>Soziale Unterstützung und Empowerment</li>
+    </ul>
+  </section>
+
+  <section class="contact">
+    <h2>Kontakt</h2>
+    <p><strong>Cynthia Jauch</strong><br>
+    WhatsApp: +33 7 58 74 72 12<br>
+    E-Mail: cynthiajauch0@gmail.com</p>
+    <a class="whatsapp-button" href="https://wa.me/33758747212" target="_blank">Jetzt auf WhatsApp schreiben</a>
+
+    <form action="mailto:cynthiajauch0@gmail.com" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Ihr Name" required>
+      <input type="email" name="email" placeholder="Ihre E-Mail" required>
+      <textarea name="message" rows="5" placeholder="Ihre Nachricht" required></textarea>
+      <button type="submit">Nachricht senden</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ProFin Solidaire. Alle Rechte vorbehalten.</p>
+    <a class="whatsapp-button" href="https://wa.me/33758747212" target="_blank">WhatsApp Kontakt</a>
+  </footer>
+</body>
+</html>
